@@ -1,0 +1,116 @@
+/* 全局样式表 */
+
+html,body,#app
+{
+    height:100%;
+    margin:0;
+    padding:0;
+    min-width: 1366px;
+}
+
+.el-breadcrumb
+{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.el-card
+{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15)!important;
+}
+.el-table
+{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.el-pagination
+{
+    margin-top: 15px;
+}
+.el-cascader-panel
+{
+    height: 200px;
+}
+.el-steps
+{
+    margin-top:25px;
+}
+.el-tabs
+{
+    margin-top:25px;
+}
+.el-step__title
+{
+    font-size: 14px;
+}
+.ql-editor
+{
+    min-height: 300px;
+}
+.demo-table-expand {
+    font-size: 0;
+  }
+  .demo-table-expand label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+  .el-table .warning-row {
+    background: oldlace;
+  }
+
+  .el-table .success-row {
+    background: #f0f9eb;
+  }
+  .el-table .danger-row {
+    background: #fcf0f0;
+  }
+  .el-table .finish-row {
+    background: #eef5fe;
+  }
+  .item {
+    margin-top: 10px;
+    margin-right: 40px;
+  }
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    width: 250px;
+    height: 250px;
+    display: block;
+  }
+  .el-upload-dragger{
+    width:250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .upload-demo{
+    margin:0 60px;
+    width: 100%;
+  }
+  .el-upload-list{
+    position: relative;
+    left:-55px;
+  }
